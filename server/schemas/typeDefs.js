@@ -20,14 +20,14 @@ const typeDefs = gql`
     link: String
   }
 
-  type Query {
-    helloWorld: String
-    me: User
-  }
-
   type Auth {
     token: ID!
     user: User
+  }
+
+  type Query {
+    helloWorld: String
+    me: User
   }
 
   type Mutation {
